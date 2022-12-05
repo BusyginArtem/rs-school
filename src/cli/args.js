@@ -9,7 +9,7 @@ const parseArgs = () => {
       key = element;
     } else {
       if (key) {
-        console.log(`${key.replaceAll("-", "")} is ${element}`);
+        console.log(`${key.replace("--", "")} is ${element}`);
       }
 
       key = null;
